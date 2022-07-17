@@ -8,9 +8,8 @@
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json .",
     "debug": "nodemon index.js",
     "start": "node index.js",
-    "prestart": "npx sequelize-cli db:create && npx sequelize-cli db:migrate",
-    "drop": "npx sequelize-cli db:drop",
-    "seed": "npx sequelize-cli db:seed:all"
+    "prestart": "npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
+    "drop": "npx sequelize-cli db:drop"
   },
   "repository": {
     "type": "git",

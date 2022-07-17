@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
       timestamps: false,
     });
   Acoes.associate = (models) => {
-    Acoes.hasMany(models.Wallet, { foreignKey: 'idAtivo', as: 'Acoes'});
+    Acoes.hasMany(models.Wallet, { foreignKey: 'codAtivo', as: 'Acoes'});
   };
   return Acoes;
 };
