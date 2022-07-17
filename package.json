@@ -2,12 +2,12 @@
   "name": "xp-backend-desafio",
   "version": "1.0.0",
   "description": "Desafio Técnico da Xp Inc - BackEnd",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json .",
-    "debug": "nodemon .",
-    "start": "node .",
+    "debug": "nodemon index.js",
+    "start": "node index.js",
     "prestart": "npx sequelize-cli db:create && npx sequelize-cli db:migrate",
     "drop": "npx sequelize-cli db:drop",
     "seed": "npx sequelize-cli db:seed:all"
@@ -25,6 +25,7 @@
   "dependencies": {
     "dotenv": "8.2.0",
     "express": "4.17.1",
+    "express-async-errors": "^3.1.1",
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.4"

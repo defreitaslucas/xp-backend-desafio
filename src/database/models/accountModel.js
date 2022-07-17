@@ -1,6 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
   const Conta = sequelize.define('Conta', {
-    idConta: {
+    codCliente: {
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
@@ -17,7 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     Conta.belongsTo(models.Client, { foreignKey: 'idClient', as: 'Client'});
   };
   Conta.associate = (models) => {
-    Conta.hasMany(models.Wallet, { foreignKey: 'idConta', as: 'Wallet'});
+    Conta.hasMany(models.Wallet, { foreignKey: 'codCliente', as: 'Wallet'});
   };
   return Conta;
 };

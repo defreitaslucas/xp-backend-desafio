@@ -1,14 +1,14 @@
 module.exports = (sequelize, DataTypes) => {
   const Wallet = sequelize.define('Wallet', {
-    idAtivo: {
+    codCliente: {
       primaryKey: true,
       type: DataTypes.INTEGER,
     },
-    idConta: {
+    codAtivo: {
       primaryKey: true,
       type: DataTypes.INTEGER,
     },
-    quantidade: DataTypes.INTEGER,
+    qtdeAtivo: DataTypes.INTEGER,
     valor: DataTypes.DECIMAL(10,2),
   },
     {
@@ -16,10 +16,10 @@ module.exports = (sequelize, DataTypes) => {
       timestamps: false,
     });
     Wallet.associate = (models) => {
-      Wallet.belongsTo(models.Conta, { foreignKey: 'idConta', as: 'Conta'});
+      Wallet.belongsTo(models.Conta, { foreignKey: 'codCliente', as: 'Conta'});
     };
     Wallet.associate = (models) => {
-      Wallet.belongsTo(models.Acoes, { foreignKey: 'idAtivo', as: 'Acoes'})
+      Wallet.belongsTo(models.Acoes, { foreignKey: 'codAtivo', as: 'Acoes'})
     }
   return Wallet;
 };

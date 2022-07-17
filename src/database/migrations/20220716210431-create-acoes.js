@@ -2,7 +2,7 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('Acoes', {
-      idAcao: {
+      codAtivo: {
         allowNull: false,
         primaryKey: true,
         autoIncrement: true,
@@ -11,7 +11,7 @@ module.exports = {
       descPapel: {
         type: Sequelize.STRING,
       },
-      quantidade: {
+      qtdeAtivo: {
         type: Sequelize.INTEGER,
       },
       valor: {

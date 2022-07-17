@@ -2,27 +2,27 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('Wallet', {
-      idAtivo: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-        onUpdate: "CASCADE",
-        onDelete: "CASCADE",
-        references: {
-          model: 'Acoes',
-          key: 'idAcao'
-        }
-      },
-      idConta: {
+      codCliente: {
         type: Sequelize.INTEGER,
         allowNull: false,
         onUpdate: "CASCADE",
         onDelete: "CASCADE",
         references: {
           model: 'Conta',
-          key: 'idConta'
+          key: 'codCliente'
         }
       },
-      quantidade: {
+      codAtivo: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
+        references: {
+          model: 'Acoes',
+          key: 'codAtivo'
+        }
+      },
+      qtdeAtivo: {
         type: Sequelize.INTEGER,
       },
       valor: {

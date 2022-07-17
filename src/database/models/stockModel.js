@@ -1,13 +1,13 @@
 module.exports = (sequelize, DataTypes) => {
   const Acoes = sequelize.define('Acoes', {
-    idAcao: {
+    codAtivo: {
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
       type: DataTypes.INTEGER,
     },
     descPapel: DataTypes.STRING(6),
-    quantidade: DataTypes.INTEGER,
+    qtdeAtivo: DataTypes.INTEGER,
     valor: DataTypes.DECIMAL(10,2),
   },
     {
