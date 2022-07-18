@@ -8,7 +8,6 @@ const contaObjValid = Joi.object({
 const validateConta = (req, res, next) => {
   const { error } = contaObjValid.validate(req.body);
   if (error) {
-    console.log(error.details[0]);
     if (error.details[0].type === 'any.required') {
       const messages = error.details.map((e) => e.message);
       return res.status(401).json({ message: messages[0] });
