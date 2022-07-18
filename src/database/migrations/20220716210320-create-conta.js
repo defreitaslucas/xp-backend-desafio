@@ -8,14 +8,14 @@ module.exports = {
         autoIncrement: true,
         type: Sequelize.INTEGER
       },
-      idClient: {
+      idCliente: {
         type: Sequelize.INTEGER,
         allowNull: false,
         onUpdate: "CASCADE",
         onDelete: "CASCADE",
         references: {
           model: 'Client',
-          key: 'id'
+          key: 'idCliente'
         }
       },
       saldo: {
