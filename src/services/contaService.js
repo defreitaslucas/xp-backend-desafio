@@ -27,7 +27,18 @@ const cashWithdrawal = async ({ codCliente, valor }) => {
   await Conta.update({ saldo }, { where: { codCliente } });
 };
 
+const getByCliente = async (codCliente) => {
+  const detalheConta = await Conta.findByPk(codCliente, { attributes: { exclude: ['idCliente'] } });
+  if (!detalheConta) {
+    const error = {
+      status: 404, message: 'Número da conta não encontrado' };
+    throw error;
+  }
+  return detalheConta.dataValues;
+};
+
 module.exports = {
   depositMoney,
   cashWithdrawal,
+  getByCliente,
 };
