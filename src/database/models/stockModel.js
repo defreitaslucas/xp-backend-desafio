@@ -17,5 +17,8 @@ module.exports = (sequelize, DataTypes) => {
   Acoes.associate = (models) => {
     Acoes.hasMany(models.Wallet, { foreignKey: 'codAtivo', as: 'Acoes'});
   };
+  Acoes.associate = (models) => {
+    Acoes.hasMany(models.Wallet, { foreignKey: 'codAtivo', as: 'Wallet'});
+  };
   return Acoes;
 };

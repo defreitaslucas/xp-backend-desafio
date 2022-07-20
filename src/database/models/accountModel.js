@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
       timestamps: false,
     });
   Conta.associate = (models) => {
-    Conta.belongsTo(models.Client, { foreignKey: 'idCliente', as: 'Client'});
+    Conta.belongsTo(models.Cliente, { foreignKey: 'idCliente', as: 'Cliente'});
   };
   Conta.associate = (models) => {
     Conta.hasMany(models.Wallet, { foreignKey: 'codCliente', as: 'Wallet'});
