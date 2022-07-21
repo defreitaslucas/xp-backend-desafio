@@ -1,5 +1,4 @@
-# Boas-Vindas ao repositório do projeto xp-backend-desafio
-Desafio Técnico XP Inc - BackEnd
+# Boas-Vindas ao repositório do projeto Desafio Técnico XP Inc - BackEnd
 =================================================
 
 Este projeto faz parte do processo seletivo da XP Inc voltado aos alunos da Trybe Turma XP - 18. O projeto tem como finalidade testar os conhecimentos dos alunos sobre os temas abordados
@@ -7,8 +6,8 @@ no curso da Trybe na área de Back End afim de alinhar conhecimento e qualificar
 Este é um arquivo README que irá explicar todo processo de desenvolvimento do projeto e como faze-lo funcionar.
 
 [![ Licença ](https://img.shields.io/badge/License-CC0-lightgray.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![ Último lançamento ](https://img.shields.io/github/v/release/mhucka/readmine.svg?style=flat-square&color=b44e88)](https://github.com/mhucka/readmine /lançamentos)
-[![ DOI ](http://img.shields.io/badge/DOI-10.22002%20%2f%20D1.20173-blue.svg?style=flat-square)](https://data.caltech. edu/registros/20173)
+[![ Último lançamento ](https://img.shields.io/github/v/release/mhucka/readmine.svg?style=flat-square&color=b44e88)]
+[![ DOI ](http://img.shields.io/badge/DOI-10.22002%20%2f%20D1.20173-blue.svg?style=flat-square)]
 
 
 Índice
@@ -35,17 +34,20 @@ Tecnologias Utilizadas
 ------------
 <details>
   <summary><strong> Tecnologias </strong></summary>
-    1. JavaScript
-    2. NodeJS
-    3. Express
-    4. JOI
-    5. Sequelize
-    6. JWT
-    7. ESLINT
-    8. Heroku
-    9. Swagger
-    10. Docker
+
+1. JavaScript
+2. NodeJS
+3. Express
+4. JOI
+5. Sequelize
+6. JWT
+7. ESLINT
+8. Heroku
+9. Swagger
+10. Docker
+
 </details>
+
 Instalação
 ------------
 <details>
@@ -141,9 +143,9 @@ Uso
       npm run start
     ```
   * NPM TEST para startar os testes.
-  ```bash
-    npm run test
-  ```
+    ```bash
+      npm run test
+    ```
 <br />
 </details>
 
@@ -152,6 +154,7 @@ Uso
 Uma abordagem sugerida para usar este arquivo README de exemplo é a seguinte:
 
 1. Autenticação Login:
+[img](https://github.com/defreitaslucas/xp-backend-desafio/img/login.png)
 
 
 
@@ -170,6 +173,7 @@ Conseguindo ajuda
 ------------
 Para dúvidas relacionadas a este projeto disponibilizo meu e-mail.
  - lucas.dfa@live.com
+
 Fica disponível também a lista de discussão deste repositório.
 
 Contribuindo
@@ -187,6 +191,7 @@ Autores e história
 ---------------------------
 
 Lucas de Freitas Abreu
+
 Um estudante de desenvolvimento de software em crescimento e constante aprendizado. 
 
 
