@@ -154,8 +154,7 @@ Uso
 Uma abordagem sugerida para usar este arquivo README de exemplo é a seguinte:
 
 1. Autenticação Login:
-[img](https://github.com/defreitaslucas/xp-backend-desafio/img/login.png)
-
+[![ img ](https://github.com/defreitaslucas/xp-backend-desafio/img/login.png)](https://github.com/defreitaslucas/xp-backend-desafio/img/login.png)
 
 
 ###  Opções adicionais
