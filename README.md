@@ -5,9 +5,6 @@ Este projeto faz parte do processo seletivo da XP Inc voltado aos alunos da Tryb
 no curso da Trybe na área de Back End afim de alinhar conhecimento e qualificar os alunos a futuras oportunidades.
 Este é um arquivo README que irá explicar todo processo de desenvolvimento do projeto e como faze-lo funcionar.
 
-[![ Licença ](https://img.shields.io/badge/License-CC0-lightgray.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
-![ Último lançamento ](https://img.shields.io/github/v/release/mhucka/readmine.svg?style=flat-square&color=b44e88)
-![ DOI ](http://img.shields.io/badge/DOI-10.22002%20%2f%20D1.20173-blue.svg?style=flat-square)
 
 
 Índice
@@ -225,7 +222,6 @@ XP Inc.
 Licença
 -------
 
-Este arquivo README é distribuído sob os termos da [ Licença Creative Commons 1.0 Universal (CC0) ](https://creativecommons.org/publicdomain/zero/1.0/). A licença se aplica a este arquivo e outros arquivos no [ repositório GitHub ].
 
 
 Autores e história
