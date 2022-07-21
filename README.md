@@ -153,10 +153,41 @@ Uso
 
 Uma abordagem sugerida para usar este arquivo README de exemplo é a seguinte:
 
-1. Autenticação Login:
+1. Autenticação login:
+
 ![ img ](./img/login.png)
 
+2. Get ativos:
 
+![ getAtivos ](./img/ativos.png)
+
+3. Post investimentos comprar:
+
+![ investimentoComprar ](./img/investimentoComprar.png)
+
+4. Post investimentos vender:
+
+![ investimentoVender ](./img/investimentoVender.png)
+
+5. Get ativos id:
+
+![ ativosAssets ](./img/ativosAssets.png)
+
+6. Get clientes id:
+
+![ ativosCliente ](./img/ativosCliente.png)
+
+7. Get conta:
+
+![ getConta ](./img/getConta.png)
+
+8. Post deposito:
+
+![ postDeposito ](./img/postDeposito.png)
+
+9. Post saque:
+
+![ postSaque ](./img/postSaque.png)
 ###  Opções adicionais
 
 Este projeto conta com um arquivo .json contendo os endpoint's já montados e preparados para importar através do POSTMAN. 
