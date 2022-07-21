@@ -154,39 +154,39 @@ Operação básica
 -----
 <details>
 
-  <summary><strong>Autenticação login</strong></summary>
+<summary><strong>Autenticação login</strong></summary>
 
 ![ img ](./img/login.png)
 
-  <summary><strong>Get ativos </strong></summary>
+<summary><strong>Get ativos </strong></summary>
 
 ![ getAtivos ](./img/ativos.png)
 
-  <summary><strong>Post investimentos comprar </strong></summary>
+<summary><strong>Post investimentos comprar </strong></summary>
 
 ![ investimentoComprar ](./img/investimentoComprar.png)
 
-  <summary><strong>Post investimentos vender </strong></summary>
+<summary><strong>Post investimentos vender </strong></summary>
 
 ![ investimentoVender ](./img/investimentoVender.png)
 
-  <summary><strong>Get ativos id </strong></summary>
+<summary><strong>Get ativos id </strong></summary>
 
 ![ ativosAssets ](./img/ativosAssets.png)
 
-  <summary><strong>Get clientes id </strong></summary>
+<summary><strong>Get clientes id </strong></summary>
 
 ![ ativosCliente ](./img/ativosCliente.png)
 
-  <summary><strong>Get conta </strong></summary>
+<summary><strong>Get conta </strong></summary>
 
 ![ getConta ](./img/getConta.png)
 
-  <summary><strong>Post deposito </strong></summary>
+<summary><strong>Post deposito </strong></summary>
 
 ![ postDeposito ](./img/postDeposito.png)
 
-  <summary><strong>Post saque </strong></summary>
+<summary><strong>Post saque </strong></summary>
 
 ![ postSaque ](./img/postSaque.png)
 
