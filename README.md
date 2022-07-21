@@ -151,76 +151,47 @@ Uso
 
 Uma abordagem sugerida para usar este arquivo README de exemplo é a seguinte:
 
-1. Copie o [ arquivo de origem ](README.md) deste arquivo para seu repositório e envie-o para seu sistema de controle de versão
-2. Exclua todo o corpo do texto, mas mantenha os títulos das seções
-3. Escreva seu conteúdo README
-4. Confirme o novo texto em seu sistema de controle de versão
-5. Atualize seu arquivo README à medida que seu software evolui
+1. Autenticação Login:
 
-O primeiro parágrafo no arquivo README (sob o título no topo) deve resumir seu software de forma concisa, de preferência usando não mais que uma ou duas frases.
 
-<p align="center"><img width="80%" src=".graphics/screenshot-top-paragraph.png"></p>
-
-O espaço abaixo do primeiro parágrafo e _antes_ do [ Table of Contents ](#table-of-contents) é um bom local para [ badges ](https://github.com/badges/shields) opcionais, que são pequenos tokens visuais comumente usado em repositórios do GitHub para comunicar o status do projeto, dependências, versões, DOIs e outras informações. Os emblemas e cores específicos que você usa dependem do seu projeto e gostos pessoais.
-
-As seções [ Introdução ](#introdução) e [ Uso ](#uso) estão descritas acima.
-
-Na seção [ Problemas e limitações conhecidos](#known-issues), resuma quaisquer problemas notáveis ​​e/ou limitações do seu software. A seção [ Obtendo ajuda ](#getting-help) deve informar aos leitores como eles podem entrar em contato com você ou, pelo menos, como podem relatar problemas que possam encontrar. A seção [ Contribuindo ](#contribuindo) é opcional; se o seu repositório for para um projeto que aceita contribuições de código aberto, esta seção é onde você pode explicar aos leitores como eles podem fazer contribuições.
-
-A seção [ License ](#license) deve indicar quaisquer direitos autorais declarados nos materiais do projeto, bem como os termos de uso do software, arquivos e outros materiais encontrados no repositório do projeto. Finalmente, a seção [ Autores e história ](#autores-e-história) deve informar aos leitores quem são os autores; é também um lugar onde você pode reconhecer outras contribuições para o trabalho e o uso de software ou ferramentas de outras pessoas.
 
 ###  Opções adicionais
 
-Alguns projetos precisam comunicar informações adicionais aos usuários e podem se beneficiar de seções adicionais no arquivo README. É difícil dar instruções específicas – depende muito do seu software, do seu público-alvo, etc. Use seu julgamento e peça feedback de usuários ou colegas para ajudar a descobrir o que mais vale a pena explicar.
+Este projeto conta com um arquivo .json contendo os endpoint's já montados e preparados para importar através do POSTMAN. 
+Atente-se para a PORT utilizada que no caso é a 3000, caso altere, lembre-se de alterar também nos endpoints.
 
 
 Problemas e limitações conhecidos
 ----------------------------
-
-Nesta seção, resuma quaisquer problemas notáveis ​​e/ou limitações do seu software. Se nenhum for conhecido ainda, esta seção pode ser omitida (e não se esqueça de remover também a entrada correspondente no [ Índice ](#tabela-de-conteúdo)); alternativamente, você pode deixar esta seção e escrever algo como "nenhum é conhecido neste momento".
+Nenhum é conhecido neste momento.
 
 
 Conseguindo ajuda
 ------------
-
-Informe os leitores de como eles podem entrar em contato com você, ou pelo menos como eles podem relatar problemas que possam encontrar. Isso pode ser simplesmente uma solicitação para usar o rastreador de problemas em seu repositório, mas muitos projetos têm chats ou listas de discussão associadas, e esta seção é um bom lugar para mencioná-los.
-
+Para dúvidas relacionadas a este projeto disponibilizo meu e-mail.
+ - lucas.dfa@live.com
+Fica disponível também a lista de discussão deste repositório.
 
 Contribuindo
 ------------
-
-Mencione como as pessoas podem oferecer contribuições e aponte-as para suas diretrizes de contribuição.
-
+Trybe
+XP Inc.
 
 Licença
 -------
 
-Este arquivo README é distribuído sob os termos da [ Licença Creative Commons 1.0 Universal (CC0) ](https://creativecommons.org/publicdomain/zero/1.0/). A licença se aplica a este arquivo e outros arquivos no [ repositório GitHub ](http://github.com/mhucka/readmine) que hospeda este arquivo. Isso _não_ significa que você, como usuário deste arquivo README em seu projeto de software, também deve usar a licença CC0! Você pode usar qualquer licença para o seu trabalho que achar melhor.
+Este arquivo README é distribuído sob os termos da [ Licença Creative Commons 1.0 Universal (CC0) ](https://creativecommons.org/publicdomain/zero/1.0/). A licença se aplica a este arquivo e outros arquivos no [ repositório GitHub ].
 
 
 Autores e história
 ---------------------------
 
-Nesta seção, liste os autores e colaboradores do seu projeto de software. (O autor original deste arquivo é [ Mike Hucka ](http://www.cds.caltech.edu/~mhucka/).) Adicionar notas adicionais aqui sobre a história do projeto pode torná-lo mais interessante e atraente.
+Lucas de Freitas Abreu
+Um estudante de desenvolvimento de software em crescimento e constante aprendizado. 
 
 
 Agradecimentos
 ---------------
 
-Se seu trabalho foi financiado por qualquer organização ou instituição, reconheça seu apoio aqui. Além disso, se o seu trabalho depende de outras bibliotecas de software, ou foi inspirado por outros trabalhos, é apropriado reconhecer essa dívida intelectual também. Por exemplo, no processo de desenvolvimento deste arquivo, usei não apenas minhas próprias ideias e experiências – Eu li muitas recomendações (às vezes contraditórias) para arquivos README e examinei READMEs reais em uso real, e tentei destilar as melhores ideias no resultado que você vê aqui. As fontes incluíram o seguinte:
-
-* http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
-* https://changelog.com/posts/top-ten-reasons-why-i-wont-use-your-open-source-project
-* https://thoughtbot.com/blog/how-to-write-a-great-readme
-* http://jonathanpeelle.net/making-a-readme-file
-* https://github.com/noffle/art-of-readme
-* https://github.com/noffle/common-readme
-* https://github.com/RichardLitt/standard-readme
-* https://github.com/jehna/readme-best-practices
-* https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
-* https://github.com/matiassingers/awesome-readme
-* https://github.com/cfpb/open-source-project-template
-* https://github.com/davidbgk/open-source-template/
-* https://www.makeareadme.com
-* https://github.com/lappleapple/feedmereadmes
-* https://github.com/badges/shields
+Agradeço a Trybe e a XP Inc por me ajudar a me tornar um desenvolvedor de software. E ter a possibilidade de me realocar no mercado de trabalho novamente na minha área de formação. 
+Estou cada vez mais em constante aprendizado e espero poder contribuir positivamente para essa grande comunidade DEV e também conseguir realizar meus objetivos. 
