@@ -152,42 +152,45 @@ Uso
 
 Operação básica
 -----
+<details>
 
- ## Autenticação login:
+  <summary><strong>Autenticação login</strong></summary>
 
 ![ img ](./img/login.png)
 
- ## Get ativos:
+  <summary><strong>Get ativos </strong></summary>
 
 ![ getAtivos ](./img/ativos.png)
 
- ## Post investimentos comprar:
+  <summary><strong>Post investimentos comprar </strong></summary>
 
 ![ investimentoComprar ](./img/investimentoComprar.png)
 
- ## Post investimentos vender:
+  <summary><strong>Post investimentos vender </strong></summary>
 
 ![ investimentoVender ](./img/investimentoVender.png)
 
- ## Get ativos id:
+  <summary><strong>Get ativos id </strong></summary>
 
 ![ ativosAssets ](./img/ativosAssets.png)
 
- ## Get clientes id:
+  <summary><strong>Get clientes id </strong></summary>
 
 ![ ativosCliente ](./img/ativosCliente.png)
 
- ## Get conta:
+  <summary><strong>Get conta </strong></summary>
 
 ![ getConta ](./img/getConta.png)
 
- ## Post deposito:
+  <summary><strong>Post deposito </strong></summary>
 
 ![ postDeposito ](./img/postDeposito.png)
 
- ## Post saque:
+  <summary><strong>Post saque </strong></summary>
 
 ![ postSaque ](./img/postSaque.png)
+
+</details>
 ###  Opções adicionais
 
 Este projeto conta com um arquivo .json contendo os endpoint's já montados e preparados para importar através do POSTMAN. 
