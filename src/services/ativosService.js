@@ -1,12 +1,15 @@
 const { Wallet, Acoes } = require('../database/models');
 
 // lista de todas as ações e a qtd nas carteiras
-const assetsWallet = async () => {
+const assetsWallet = async (id) => {
+  const codCliente = Number(id);
   const getAll = await Acoes.findAll({
     include: [{
     model: Wallet,
     as: 'Wallet',
-    attributes: { exclude: ['codCliente', 'codAtivo', 'valor'] },
+    // attributes: ['codAtivo', 'qtdeAtivo', 'valor'],
+    where: { codCliente },
+    required: false,
   }],
 });
   return getAll;
