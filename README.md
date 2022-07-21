@@ -6,8 +6,8 @@ no curso da Trybe na área de Back End afim de alinhar conhecimento e qualificar
 Este é um arquivo README que irá explicar todo processo de desenvolvimento do projeto e como faze-lo funcionar.
 
 [![ Licença ](https://img.shields.io/badge/License-CC0-lightgray.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![ Último lançamento ](https://img.shields.io/github/v/release/mhucka/readmine.svg?style=flat-square&color=b44e88)]
-[![ DOI ](http://img.shields.io/badge/DOI-10.22002%20%2f%20D1.20173-blue.svg?style=flat-square)]
+[![ Último lançamento ](https://img.shields.io/github/v/release/mhucka/readmine.svg?style=flat-square&color=b44e88)
+[![ DOI ](http://img.shields.io/badge/DOI-10.22002%20%2f%20D1.20173-blue.svg?style=flat-square)
 
 
 Índice
