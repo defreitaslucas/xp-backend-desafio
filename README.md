@@ -153,39 +153,39 @@ Uso
 
 Uma abordagem sugerida para usar este arquivo README de exemplo é a seguinte:
 
-1. ## Autenticação login:
+ ## Autenticação login:
 
 ![ img ](./img/login.png)
 
-2. ## Get ativos:
+ ## Get ativos:
 
 ![ getAtivos ](./img/ativos.png)
 
-3. ## Post investimentos comprar:
+ ## Post investimentos comprar:
 
 ![ investimentoComprar ](./img/investimentoComprar.png)
 
-4. ## Post investimentos vender:
+ ## Post investimentos vender:
 
 ![ investimentoVender ](./img/investimentoVender.png)
 
-5. ## Get ativos id:
+ ## Get ativos id:
 
 ![ ativosAssets ](./img/ativosAssets.png)
 
-6. ## Get clientes id:
+ ## Get clientes id:
 
 ![ ativosCliente ](./img/ativosCliente.png)
 
-7. ## Get conta:
+ ## Get conta:
 
 ![ getConta ](./img/getConta.png)
 
-8. ## Post deposito:
+ ## Post deposito:
 
 ![ postDeposito ](./img/postDeposito.png)
 
-9. ## Post saque:
+ ## Post saque:
 
 ![ postSaque ](./img/postSaque.png)
 ###  Opções adicionais
