@@ -191,6 +191,7 @@ Operação básica
 ![ postSaque ](./img/postSaque.png)
 
 </details>
+
 ###  Opções adicionais
 
 Este projeto conta com um arquivo .json contendo os endpoint's já montados e preparados para importar através do POSTMAN. 
