@@ -1,0 +1,13 @@
+### SERVER VARS
+API_PORT='porta da sua api' ex: 3000
+NODE_ENV='modo que o node irá rodar' ex: development
+
+### DATABASE VARS
+HOSTNAME='host do seu banco de dados' ex: localhost
+DB_PORT='porta do seu banco de dados' ex: 3306
+MYSQL_USER='user do seu banco de dados' ex: root
+MYSQL_PASSWORD='password do seu banco de dados' ex: root
+MYSQL_DATABASE='nome do database' ex: xp-inc
+
+### JWT SECRET
+JWT_SECRET=minhaSenhaSecreta - configuração da palavra secreta para geração e autenticação de token

@@ -1,13 +1,13 @@
 module.exports = (sequelize, DataTypes) => {
   const Cliente = sequelize.define('Cliente', {
-    id: {
+    idCliente: {
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
       type: DataTypes.INTEGER,
     },
-    login: DataTypes.STRING(20),
     name: DataTypes.STRING(255),
+    username: DataTypes.STRING(12),
     email: DataTypes.STRING(255),
     password: DataTypes.STRING(255),
   },
