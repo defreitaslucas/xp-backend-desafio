@@ -157,39 +157,46 @@ Operação básica
 <summary><strong>Autenticação login</strong></summary>
 
 ![ img ](./img/login.png)
-
+</details>
+<details>
 <summary><strong>Get ativos </strong></summary>
 
 ![ getAtivos ](./img/ativos.png)
-
+</details>
+<details>
 <summary><strong>Post investimentos comprar </strong></summary>
 
 ![ investimentoComprar ](./img/investimentoComprar.png)
-
+</details>
+<details>
 <summary><strong>Post investimentos vender </strong></summary>
 
 ![ investimentoVender ](./img/investimentoVender.png)
-
+</details>
+<details>
 <summary><strong>Get ativos id </strong></summary>
 
 ![ ativosAssets ](./img/ativosAssets.png)
-
+</details>
+<details>
 <summary><strong>Get clientes id </strong></summary>
 
 ![ ativosCliente ](./img/ativosCliente.png)
-
+</details>
+<details>
 <summary><strong>Get conta </strong></summary>
 
 ![ getConta ](./img/getConta.png)
-
+</details>
+<details>
 <summary><strong>Post deposito </strong></summary>
 
 ![ postDeposito ](./img/postDeposito.png)
-
+</details>
+<details>
 <summary><strong>Post saque </strong></summary>
 
 ![ postSaque ](./img/postSaque.png)
-
 </details>
 
 ###  Opções adicionais
