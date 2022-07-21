@@ -1,0 +1,32 @@
+version: '3'
+services:
+  backend:
+    build: .
+    user: node
+    container_name: xp-desafio
+    command: bash
+    restart: always
+    depends_on:
+      - database
+    ports:
+      - 3000:3000
+    environment:
+      - MYSQL_USER: root
+      - MYSQL_PASSWORD: password
+      - HOSTNAME: database
+      - JWT_SECRET: minhaSenhaSecreta
+  database:
+    container_name: xp-desafio-bd
+    image: mysql:8.0.21
+    platform: linux/x86_64
+    restart: always
+    ports:
+      - 3306:3306
+      - 33060:33060
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - dados-do-banco:/var/lib/mysql
+
+volumes:
+  dados-do-banco:

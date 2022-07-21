@@ -14,9 +14,10 @@ Este é um arquivo README que irá explicar todo processo de desenvolvimento do 
 -----------------
 
 * [ Introdução ](#introdução)
-* [ Tecnologias Utilizadas ](#tecnologias)
+* [ Tecnologias Utilizadas ](#tecnologias-utilizadas)
 * [ Instalação ](#instalação)
 * [ Uso ](#uso)
+* [ Operação Básica ](#operação-básica)
 * [ Problemas e limitações conhecidos ](#known-issues-and-limitations)
 * [ Obtendo ajuda ](#getting-help)
 * [ Contribuindo ](#contribuindo)
@@ -149,9 +150,8 @@ Uso
 <br />
 </details>
 
-###  Operação básica
-
-Uma abordagem sugerida para usar este arquivo README de exemplo é a seguinte:
+Operação básica
+-----
 
  ## Autenticação login:
 
