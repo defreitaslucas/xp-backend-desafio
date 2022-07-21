@@ -6,14 +6,14 @@ module.exports = {
         idCliente: 1,
         name: 'Lucas de Freitas Abreu',
         username: 'tapa',
-        email: 'lucas.dfa@live.com',
+        email: 'lucas@teste.com',
         password: 'lucas12345',
       },
       {
         idCliente: 2,
         name: 'Giulia Avelino Mattos',
         username: 'Giu',
-        email: 'giulia@gmail.com',
+        email: 'giulia@teste.com',
         password: 'giulia12345',
       },
       ], { timestamps: false });

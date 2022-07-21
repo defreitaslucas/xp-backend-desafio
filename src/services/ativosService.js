@@ -1,5 +1,6 @@
 const { Wallet, Acoes } = require('../database/models');
 
+// lista de todas as ações e a qtd nas carteiras
 const assetsWallet = async () => {
   const getAll = await Acoes.findAll({
     include: [{
@@ -30,13 +31,13 @@ include: [{
 
 const getAllAssets = async (id) => {
   const codAtivo = Number(id);
-  const getAllAtivos = await Acoes.findAll({ where: { codAtivo }, exclude: ['descPapel'] });
+  const getAllAtivos = await Acoes.findOne({ where: { codAtivo }, exclude: ['descPapel'] });
   if (!getAllAtivos) {
     const error = {
       status: 404, message: 'Número do ativo não encontrado' };
     throw error;
   }
-  return getAllAtivos.reduce((acc, ativo) => ativo, {});
+  return getAllAtivos;
 };
 
 module.exports = {
