@@ -3,8 +3,9 @@ const { getAllCliente, getAllAssets, assetsWallet } = require('../services/ativo
 
 const ativos = express();
 
-ativos.get('/', async (_req, res) => {
-  const assetsAll = await assetsWallet();
+ativos.get('/:id', async (req, res) => {
+  const { id } = req.params;
+  const assetsAll = await assetsWallet(id);
   return res.status(200).json(assetsAll);
 });
 
