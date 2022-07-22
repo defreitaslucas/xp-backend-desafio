@@ -31,7 +31,7 @@ module.exports = {
       codAtivo: 1,
       descPapel: 'AZUL4',
       qtdeAtivo: 192,
-      valor: 100.00,
+      valor: 100,
     },
     wallet: {
       codCliente: 100,
