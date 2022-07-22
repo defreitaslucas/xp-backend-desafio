@@ -13,6 +13,7 @@ Este é um arquivo README que irá explicar todo processo de desenvolvimento do 
 * [ Introdução ](#introdução)
 * [ Tecnologias Utilizadas ](#tecnologias-utilizadas)
 * [ Instalação ](#instalação)
+* [ Banco de dados ](#banco-de-dados)
 * [ Uso ](#uso)
 * [ Operação Básica ](#operação-básica)
 * [ Problemas e limitações conhecidos ](#known-issues-and-limitations)
@@ -96,6 +97,13 @@ Instalação
 
   <br/>
 </details> 
+
+Banco de dados
+------------
+
+<details>
+  <summary><strong> Diagrama de Entidade Relacional</strong></summary>
+  ![ DER ](./img/DER.png)
 
 Uso
 -----
