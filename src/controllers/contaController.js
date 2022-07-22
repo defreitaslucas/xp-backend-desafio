@@ -11,7 +11,7 @@ conta.post('/deposito', validateConta, async (req, res) => {
 
 conta.post('/saque', validateConta, async (req, res) => {
   await cashWithdrawal(req.body);
-  return res.status(201).json({ message: 'Valor regastado com sucesso.' });
+  return res.status(201).json({ message: 'Valor resgatado com sucesso.' });
 });
 
 conta.get('/:id', async (req, res) => {

@@ -24,7 +24,7 @@ include: [{
     as: 'Acoes',
     attributes: { exclude: ['codAtivo', 'descPapel', 'qtdeAtivo'] },
   }] });
-  if (!getAll) {
+  if (!getAll || getAll.length === 0) {
     const error = {
       status: 404, message: 'Número da conta não encontrado' };
     throw error;

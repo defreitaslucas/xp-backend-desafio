@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"email\": \"lucas.dfa@live.com\",\n    \"password\": \"lucas12345\"\n}",
+					"raw": "{\n    \"email\": \"lucas@teste.com\",\n    \"password\": \"lucas12345\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -36,18 +36,18 @@
 			"response": []
 		},
 		{
-			"name": "/ativos",
+			"name": "/ativos/:id",
 			"request": {
 				"method": "GET",
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZENsaWVudGUiOjEsIm5hbWUiOiJMdWNhcyBkZSBGcmVpdGFzIEFicmV1IiwidXNlcm5hbWUiOiJ0YXBhIiwiZW1haWwiOiJsdWNhcy5kZmFAbGl2ZS5jb20iLCJpYXQiOjE2NTgyNjQxNDYsImV4cCI6MTY1ODM1MDU0Nn0.iugZsrQTvSqQswk8fgcdrG8RhxurT7Xf7kxBb-8sgWc",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZENsaWVudGUiOjEsIm5hbWUiOiJMdWNhcyBkZSBGcmVpdGFzIEFicmV1IiwidXNlcm5hbWUiOiJ0YXBhIiwiZW1haWwiOiJsdWNhc0B0ZXN0ZS5jb20iLCJpYXQiOjE2NTg0NTQ5MzYsImV4cCI6MTY1ODU0MTMzNn0.3umnzbzh74EHfsstCkm9QPgsegOjdpgprEDaxQ-oUPU",
 						"type": "text"
 					}
 				],
 				"url": {
-					"raw": "http://localhost:3000/ativos/?",
+					"raw": "http://localhost:3000/ativos/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -56,12 +56,6 @@
 					"path": [
 						"ativos",
 						""
-					],
-					"query": [
-						{
-							"key": "",
-							"value": null
-						}
 					]
 				}
 			},

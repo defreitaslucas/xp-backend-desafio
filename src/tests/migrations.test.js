@@ -1,28 +1,40 @@
 // const Sequelize = require('sequelize');
 // const shell = require('shelljs');
-
 // const sequelizeConfig = require('../database/config/config');
 // const { sequelizeCli } = require('./assets/constants');
 // const queries = require('./assets/queries');
 
 // describe('Testando as migrations', () => {
 //   let database;
-
-//   beforeAll(() => {
+//   before(() => {
 //     database = new Sequelize(sequelizeConfig.test);
-//   });
-
-//   beforeEach(() => {
 //     shell.exec([
 //       sequelizeCli.drop,
 //       sequelizeCli.create,
 //       sequelizeCli.migrate,
+//       sequelizeCli.seed
 //     ].join(' && '),
-//       { silent: process.env.DEBUG === 'false' });
+//     { silent: process.env.DEBUG === 'false' });
 //   });
+//   after(() => {
+//     sequelizeCli.drop
+//   })
+
+//   // beforeAll(() => {
+//   //   database = new Sequelize(sequelizeConfig.test);
+//   // });
+
+//   // beforeEach(() => {
+//   //   shell.exec([
+//   //     sequelizeCli.drop,
+//   //     sequelizeCli.create,
+//   //     sequelizeCli.migrate,
+//   //   ].join(' && '),
+//   //     { silent: process.env.DEBUG === 'false' });
+//   // });
 //   it('Será validado que é possível fazer um INSERT e um SELECT na tabela Client', async () => {
 //     const insertQuery = await database
-//       .query(queries.insert.cliente, { type: 'INSERT' });
+//     .query(queries.insert.cliente, { type: 'INSERT' });
 //     expect(insertQuery).toEqual([1, 1]);
 
 //     const [selectQuery] = await database

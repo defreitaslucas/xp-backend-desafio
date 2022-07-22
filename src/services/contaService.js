@@ -10,7 +10,6 @@ const depositMoney = async ({ codCliente, valor }) => {
   const saldo = Number(verificaCliente.dataValues.saldo) + valor;
   await Conta.update({ saldo }, { where: { codCliente } });
 };
-
 const cashWithdrawal = async ({ codCliente, valor }) => {
   const verificaSaldo = await Conta.findOne({ where: { codCliente } });
   if (!verificaSaldo) {
