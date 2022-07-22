@@ -1,25 +1,25 @@
 'use strict';
 module.exports = {
   up: async (queryInterface, _Sequelize) => {
-    await queryInterface.bulkInsert('Client',
+    await queryInterface.bulkInsert('Cliente',
       [{
-        id: 1,
-        login: 'tapa',
+        idCliente: 1,
         name: 'Lucas de Freitas Abreu',
-        email: 'lucas.dfa@live.com',
-        password: '123456',
+        username: 'tapa',
+        email: 'lucas@teste.com',
+        password: 'lucas12345',
       },
       {
-        id: 2,
-        login: 'giugiu',
+        idCliente: 2,
         name: 'Giulia Avelino Mattos',
-        email: 'giulia@gmail.com',
-        password: '987654',
+        username: 'Giu',
+        email: 'giulia@teste.com',
+        password: 'giulia12345',
       },
       ], { timestamps: false });
   },
 
   down: async (queryInterface, _Sequelize) => {
-    await queryInterface.bulkDelete('Client', null, {});
+    await queryInterface.bulkDelete('Cliente', null, {});
   },
 };

@@ -4,12 +4,12 @@ module.exports = {
     await queryInterface.bulkInsert('Conta',
       [{
         codCliente: 100,
-        idClient: 1,
+        idCliente: 1,
         saldo: 2000.01,
       },
       {
         codCliente: 101,
-        idClient: 2,
+        idCliente: 2,
         saldo: 1000.05,
       },
       ], { timestamps: false });

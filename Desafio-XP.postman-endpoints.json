@@ -1,0 +1,261 @@
+{
+	"info": {
+		"_postman_id": "df85fd3a-29de-4d3b-badc-8f9b1d0317ff",
+		"name": "Desafio-XP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20971368"
+	},
+	"item": [
+		{
+			"name": "/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"lucas.dfa@live.com\",\n    \"password\": \"lucas12345\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/ativos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZENsaWVudGUiOjEsIm5hbWUiOiJMdWNhcyBkZSBGcmVpdGFzIEFicmV1IiwidXNlcm5hbWUiOiJ0YXBhIiwiZW1haWwiOiJsdWNhcy5kZmFAbGl2ZS5jb20iLCJpYXQiOjE2NTgyNjQxNDYsImV4cCI6MTY1ODM1MDU0Nn0.iugZsrQTvSqQswk8fgcdrG8RhxurT7Xf7kxBb-8sgWc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/ativos/?",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ativos",
+						""
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/investimentos/comprar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZENsaWVudGUiOjEsIm5hbWUiOiJMdWNhcyBkZSBGcmVpdGFzIEFicmV1IiwidXNlcm5hbWUiOiJ0YXBhIiwiZW1haWwiOiJsdWNhcy5kZmFAbGl2ZS5jb20iLCJpYXQiOjE2NTgyNjQxNDYsImV4cCI6MTY1ODM1MDU0Nn0.iugZsrQTvSqQswk8fgcdrG8RhxurT7Xf7kxBb-8sgWc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"codCliente\": 100,\n    \"codAtivo\": 4,\n    \"qtdeAtivo\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/investimentos/comprar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"investimentos",
+						"comprar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/investimentos/vender",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZENsaWVudGUiOjEsIm5hbWUiOiJMdWNhcyBkZSBGcmVpdGFzIEFicmV1IiwidXNlcm5hbWUiOiJ0YXBhIiwiZW1haWwiOiJsdWNhcy5kZmFAbGl2ZS5jb20iLCJpYXQiOjE2NTgyNjQxNDYsImV4cCI6MTY1ODM1MDU0Nn0.iugZsrQTvSqQswk8fgcdrG8RhxurT7Xf7kxBb-8sgWc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"codCliente\": 100,\n    \"codAtivo\": 4,\n    \"qtdeAtivo\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/investimentos/vender",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"investimentos",
+						"vender"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/ativos/cliente/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/ativos/cliente/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ativos",
+						"cliente",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/ativos/assets/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/ativos/assets/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ativos",
+						"assets",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/conta/deposito",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"codCliente\": 100,\n    \"valor\": 5000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/conta/deposito",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"conta",
+						"deposito"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/conta/saque",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"codCliente\": 100,\n    \"valor\": 0.00\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/conta/saque",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"conta",
+						"saque"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/conta/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/conta/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"conta",
+						"100"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
