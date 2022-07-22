@@ -102,8 +102,10 @@ Banco de dados
 ------------
 
 <details>
+
 <summary><strong> Diagrama de Entidade Relacional</strong></summary>
-![ der ](./img/DER.png)
+
+![ img ](./img/bancoDeDados.png)
 </details>
 
 Uso
