@@ -220,8 +220,8 @@ Nenhum é conhecido neste momento.
 
 Próximos Passos
 ----------------------------
-Criação de uma tabela de histórico para visualizar o extrato de saques e depositos. Essa tabela faŕa link com a tabela Conta.
-Criação de uma tabela de histórico para visualizar o extrato de transação de compra e venda de ações. Essa tabela fara link com a tabela de Wallet.
+Criação de uma tabela de histórico para visualizar o extrato de saques e depositos. Essa tabela faŕa link com a tabela Conta.<br />
+Criação de uma tabela de histórico para visualizar o extrato de transação de compra e venda de ações. Essa tabela fara link com a tabela de Wallet.<br />
 Criptografar a senha no banco de dados.
 
 
