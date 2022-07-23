@@ -17,6 +17,7 @@ Este é um arquivo README que irá explicar todo processo de desenvolvimento do 
 * [ Uso ](#uso)
 * [ Operação Básica ](#operação-básica)
 * [ Problemas e limitações conhecidos ](#known-issues-and-limitations)
+* [ Próximos passos](#próximos-passos)
 * [ Obtendo ajuda ](#getting-help)
 * [ Contribuindo ](#contribuindo)
 * [ Licença ](#licença)
@@ -216,6 +217,12 @@ Atente-se para a PORT utilizada que no caso é a 3000, caso altere, lembre-se de
 Problemas e limitações conhecidos
 ----------------------------
 Nenhum é conhecido neste momento.
+
+Próximos Passos
+----------------------------
+Criação de uma tabela de histórico para visualizar o extrato de saques e depositos. Essa tabela faŕa link com a tabela Conta.
+Criação de uma tabela de histórico para visualizar o extrato de transação de compra e venda de ações. Essa tabela fara link com a tabela de Wallet.
+Criptografar a senha no banco de dados.
 
 
 Conseguindo ajuda
